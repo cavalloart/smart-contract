@@ -1,12 +1,18 @@
-pragma solidity ^0.8.0;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.6.0;
 
-contract counter {
-        // Contract code goes here...
-        // Store a numerical value
-        // Increase the count
-        // Decrease the count
-        // Store a name / set name
+contract Counter {
+    string public name;
+    uint public count;
+  
+
+    constructor(string memory _name, uint _initialCount) {
+        name = _name;
+        count = _initialCount;
+    }
+    function increment() public {
+        count =count ++;
 
 
-
+    }
 }
