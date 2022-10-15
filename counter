@@ -1,0 +1,12 @@
+pragma solidity ^0.8.0;
+
+contract counter {
+        // Contract code goes here...
+        // Store a numerical value
+        // Increase the count
+        // Decrease the count
+        // Store a name / set name
+
+
+
+}
