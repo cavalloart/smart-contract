@@ -10,8 +10,10 @@ contract Counter {
         name = _name;
         count = _initialCount;
     }
-    function increment() public {
+
+    function increment() public returns (uint newCount)  {
         count =count ++;
+        return count;
 
 
     }
